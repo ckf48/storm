@@ -1,4 +1,4 @@
-package com.storm.system;
+package com.storm.system.config;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
