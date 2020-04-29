@@ -5,6 +5,9 @@ import com.storm.server.domain.TestExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
+/**
+ * @author ckf48
+ */
 public interface TestMapper {
     long countByExample(TestExample example);
 
