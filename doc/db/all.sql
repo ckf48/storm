@@ -7,3 +7,6 @@ create table `chapter`
     primary key (id)
 ) engine = innodb
   default charset = utf8mb4 comment = 'CHAPTER';
+
+insert into `chapter` (id, course_id, name) values ('00000000','00000000','chapter1'),
+                                                   ('00000001','00000000','chapter2')
